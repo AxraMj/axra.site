@@ -36,9 +36,9 @@ const Contact = () => {
         });
 
         // Validate the public key format
-        if (!publicKey || publicKey.length < 10) {
-          console.error('Invalid EmailJS public key format');
-          throw new Error('Invalid EmailJS public key format');
+        if (!publicKey) {
+          console.error('EmailJS public key is missing');
+          throw new Error('EmailJS public key is missing. Please check your .env file.');
         }
 
         // Initialize EmailJS
