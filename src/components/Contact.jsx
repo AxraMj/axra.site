@@ -22,41 +22,32 @@ const Contact = () => {
   useEffect(() => {
     const initializeEmailJS = async () => {
       try {
-        // Log all environment variables for debugging
-        console.log('All Environment Variables:', {
-          ...import.meta.env,
-          MODE: import.meta.env.MODE,
-          PROD: import.meta.env.PROD,
-          DEV: import.meta.env.DEV
+        // Get environment variables with fallback to empty string
+        const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY || '';
+        const serviceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID || '';
+        const templateId = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID || '';
+
+        // Log the actual values (without exposing sensitive data)
+        console.log('Environment Variables Status:', {
+          hasPublicKey: !!publicKey,
+          hasServiceId: !!serviceId,
+          hasTemplateId: !!templateId,
+          mode: import.meta.env.MODE
         });
 
-        const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
-        const serviceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
-        const templateId = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
-
-        // Detailed validation
-        if (!publicKey) {
-          console.error('EmailJS Configuration Error: Public key is missing');
-          throw new Error('EmailJS public key is missing');
+        // Validate the public key format
+        if (!publicKey || publicKey.length < 10) {
+          console.error('Invalid EmailJS public key format');
+          throw new Error('Invalid EmailJS public key format');
         }
 
-        if (!serviceId) {
-          console.error('EmailJS Configuration Error: Service ID is missing');
-          throw new Error('EmailJS service ID is missing');
-        }
-
-        if (!templateId) {
-          console.error('EmailJS Configuration Error: Template ID is missing');
-          throw new Error('EmailJS template ID is missing');
-        }
-
-        // Initialize EmailJS with explicit error handling
+        // Initialize EmailJS
         try {
           await emailjs.init({
             publicKey: publicKey.trim(),
             limitRate: true,
           });
-          console.log('EmailJS initialized successfully with key:', publicKey);
+          console.log('EmailJS initialized successfully');
           setInitialized(true);
         } catch (initError) {
           console.error('EmailJS Initialization Error:', initError);
