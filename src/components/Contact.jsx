@@ -29,11 +29,23 @@ const Contact = () => {
         console.log('Environment Variables:', {
           publicKey,
           serviceId,
-          templateId
+          templateId,
+          env: import.meta.env
         });
 
         if (!publicKey) {
+          console.error('EmailJS public key is missing');
           throw new Error('EmailJS public key is missing in environment variables');
+        }
+
+        if (!serviceId) {
+          console.error('EmailJS service ID is missing');
+          throw new Error('EmailJS service ID is missing in environment variables');
+        }
+
+        if (!templateId) {
+          console.error('EmailJS template ID is missing');
+          throw new Error('EmailJS template ID is missing in environment variables');
         }
 
         // Initialize without validation of key format
@@ -43,9 +55,9 @@ const Contact = () => {
         });
 
         setInitialized(true);
-        console.log('EmailJS initialized successfully');
+        console.log('EmailJS initialized successfully with key:', publicKey);
       } catch (error) {
-        console.error('EmailJS Initialization Error:', error.message);
+        console.error('EmailJS Initialization Error:', error);
         alert('Failed to initialize contact form. Please check the configuration.');
       }
     };
