@@ -23,7 +23,14 @@ const Contact = () => {
     const initializeEmailJS = async () => {
       try {
         const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
-        console.log('Attempting to initialize EmailJS...');
+        const serviceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
+        const templateId = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
+        
+        console.log('Environment Variables:', {
+          publicKey,
+          serviceId,
+          templateId
+        });
 
         if (!publicKey) {
           throw new Error('EmailJS public key is missing in environment variables');
