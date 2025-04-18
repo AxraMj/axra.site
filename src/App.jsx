@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer, FeaturedProjects } from "./components";
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
         <About />
         <Experience />
         <Tech />
+        <FeaturedProjects />
         <Works />
         {/* <Feedbacks /> */}
         <div className='relative z-0'>
