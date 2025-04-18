@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a dedicated junior Web Developer with hands-on experience in web development, machine learning, and front-end technologies. Currently pursuing an MCA, I'm eager to grow in a full-time role where I can apply and expand my skills.
+        I'm a self-taught developer with a focus on both web and mobile applications. While finishing my MCA, I’ve worked on several projects that span frontend design, backend logic, and deployment pipelines. My main areas of interest include full-stack development (especially the MERN stack), machine learning basics, and exploring DevOps workflows. I’m currently looking to apply these skills in a real-world setting and keep building things that actually work and help people.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

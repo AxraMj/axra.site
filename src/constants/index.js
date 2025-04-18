@@ -50,7 +50,7 @@ import {
       id: "resume",
       title: "Resume",
       type: "download",
-      url: "/Resume_Akshara.pdf"
+      url: "/AksharaManoj_CV.pdf"
     }
   ];
   
@@ -68,7 +68,7 @@ import {
       icon: backend,
     },
     {
-      title: "Copywriter",
+      title: "DevOps",
       icon: creator,
     },
   ];
@@ -110,10 +110,17 @@ import {
       name: "Figma",
       icon: figma,
     },
-  
     {
       name: "Python",
       icon: python,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "GitHub Actions",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
     },
   ];
   
@@ -196,27 +203,6 @@ import {
       source_code_link: "https://github.com/AxraMj/Travo-App-Project-Final.git",
     },
     {
-      name: " Mask face Detection System ",
-      description:
-        "Developed a Mask Detection System using OpenCV and Python to monitor real-time mask usage, enhancing facial recognition for public safety during the COVID-19 pandemic.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "opencv",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Haarcascade",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: MaskedFace,
-      source_code_link: "https://github.com/AxraMj/Machine-Learning-Projects.git",
-    },
-    {
       name: "OTT Application",
       description:
         "Our OTT application offers seamless streaming of a vast library of movies, TV shows, and exclusive content over the internet. Enjoy high-quality entertainment anytime, anywhere, on various devices—no traditional cable or satellite required.",
@@ -258,7 +244,6 @@ import {
       image: thumnail,
       source_code_link: "https://github.com/AxraMj/my-project.git",
     },
-
     {
       name: "3D IPhone Website",
       description:
@@ -279,6 +264,27 @@ import {
       ],
       image: Applewebsite,
       source_code_link: "https://github.com/AxraMj/Apple-website.git",
+    },
+    {
+      name: "Mask face Detection System",
+      description:
+        "Developed a Mask Detection System using OpenCV and Python to monitor real-time mask usage, enhancing facial recognition for public safety during the COVID-19 pandemic.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "opencv",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Haarcascade",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: MaskedFace,
+      source_code_link: "https://github.com/AxraMj/Machine-Learning-Projects.git",
     },
   ];
   
