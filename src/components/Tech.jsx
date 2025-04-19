@@ -1,7 +1,7 @@
 import React from "react";
 import { SectionWrapper } from "../hoc"; // Higher-order component
 import { FaReact, FaDocker, FaGithub } from 'react-icons/fa'; // Import React icon
-import { SiRedux, SiMongodb, SiTailwindcss, SiTypescript, SiMeta, SiPython } from 'react-icons/si'; // Import package icons
+import { SiRedux, SiMongodb, SiTailwindcss, SiTypescript, SiMeta, SiPython, SiAwsamplify } from 'react-icons/si'; // Import package icons
 import { DiNodejs } from 'react-icons/di'; // Import Node.js icon
 
 // Import the Express and GSAP images
@@ -54,6 +54,11 @@ const technologies = [
     name: "GitHub Actions",
     icon: <FaGithub className="text-gray-800 w-full h-full" />,
     color: "hover:text-gray-800",
+  },
+  {
+    name: "AWS Amplify",
+    icon: <SiAwsamplify className="text-orange-500 w-full h-full" />,
+    color: "hover:text-orange-500",
   },
 ];
 
