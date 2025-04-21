@@ -50,7 +50,7 @@ import {
       id: "resume",
       title: "Resume",
       type: "download",
-      url: "/AksharaManoj_CV.pdf"
+      url: "/Akshara_Manoj_CV.pdf"
     }
   ];
   
@@ -200,7 +200,7 @@ import {
         },
       ],
       image: "/Travo Thumnail.png",
-      source_code_link: "https://github.com/AxraMj/Travo-App-Project-Final.git",
+      source_code_link: "https://github.com/AxraMj/TRAVEL-AND-EXPLORATION-MOBILE-APP.git",
     },
     {
       name: "OTT Application",
