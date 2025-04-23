@@ -50,7 +50,7 @@ import {
       id: "resume",
       title: "Resume",
       type: "download",
-      url: "/Akshara_Manoj_CV.pdf"
+      url: "/Akshara_Manoj_Resume.pdf"
     }
   ];
   
