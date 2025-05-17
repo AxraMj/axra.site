@@ -44,8 +44,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a self-taught developer with a focus on both web and mobile applications. While finishing my MCA, I’ve worked on several projects that span frontend design, backend logic, and deployment pipelines. My main areas of interest include full-stack development (especially the MERN stack), machine learning basics, and exploring DevOps workflows. I’m currently looking to apply these skills in a real-world setting and keep building things that actually work and help people.
-      </motion.p>
+I'm a freelance web developer passionate about building fast, modern, and responsive websites. I specialize in turning ideas into clean, functional digital experiences using HTML, CSS, JavaScript, and React.
+
+I help small businesses, startups, and solo entrepreneurs create beautiful websites that not only look great but also perform well across all devices.      </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
