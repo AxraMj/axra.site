@@ -26,7 +26,8 @@ import {
   Applewebsite,
   Threejs,
   thumnail,
-  GSAP
+  GSAP,
+  bakeryWebsite
 } from "../assets";
   
   export const navLinks = [
@@ -178,6 +179,50 @@ import {
   
   const projects = [
     {
+      name: "Local Bakery Website",
+      description:
+        "A modern, responsive website built for a fictional local bakery to showcase its products, services, and customer love. This project was designed to reflect the warm, welcoming nature of a family-owned bakery while offering a clean and functional user experience across devices.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bakeryWebsite,
+      source_code_link: "https://github.com/AxraMj/Local-Bakery-Website.git",
+      demo_link: "https://local-bakery-website.vercel.app/"
+    },
+    {
+      name: "3D IPhone Website",
+      description:
+      "I built a website that looks like the iPhone 15 pro page from Apple. I used React,Threejs, and GSAP to make, it work smoothly on any device",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GSAP",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Applewebsite,
+      source_code_link: "https://github.com/AxraMj/Apple-website.git",
+      demo_link: "https://apple-website-alpha-blond.vercel.app/"
+    },
+    {
       name: "Travo: Social Media App",
       description:
         "Travo is a full-stack travel social platform designed to connect travelers (Explorers) and content creators (Creators). It allows users to discover destinations, share experiences, and interact socially through posts, guides, and location-based features.",
@@ -201,6 +246,7 @@ import {
       ],
       image: "/Travo Thumnail.png",
       source_code_link: "https://github.com/AxraMj/TRAVEL-AND-EXPLORATION-MOBILE-APP.git",
+      demo_link: "https://travo-app.vercel.app"
     },
     {
       name: "OTT Application",
@@ -222,6 +268,7 @@ import {
       ],
       image: Application,
       source_code_link: "https://github.com/AxraMj/my-app.git",
+      demo_link: "https://ott-app-demo.vercel.app"
     },
     {
       name: "OTT Streaming Plaform",
@@ -243,27 +290,7 @@ import {
       ],
       image: thumnail,
       source_code_link: "https://github.com/AxraMj/my-project.git",
-    },
-    {
-      name: "3D IPhone Website",
-      description:
-      "I built a website that looks like the iPhone 15 pro page from Apple. I used React,Threejs, and GSAP to make, it work smoothly on any device",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Threejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "GSAP",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Applewebsite,
-      source_code_link: "https://github.com/AxraMj/Apple-website.git",
+      demo_link: "https://ott-streaming.vercel.app"
     },
     {
       name: "Mask face Detection System",
@@ -285,6 +312,7 @@ import {
       ],
       image: MaskedFace,
       source_code_link: "https://github.com/AxraMj/Machine-Learning-Projects.git",
+      demo_link: "https://mask-detection-demo.vercel.app"
     },
   ];
   

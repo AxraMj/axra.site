@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import external from "./external-link.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -34,6 +35,7 @@ import Application from "./Application.png";
 import Applewebsite from "./Applewebsite.png";
 import thumnail from "./thumnail.png"
 import MaskedFace from './MaskedFace.png'
+import bakeryWebsite from './work/bakery-website.png'
 
 export {
   logo,
@@ -44,6 +46,7 @@ export {
   github,
   menu,
   close,
+  external,
   css,
   docker,
   figma,
@@ -68,5 +71,6 @@ export {
   expressjs,
   python,
   Threejs,
-  GSAP
+  GSAP,
+  bakeryWebsite
 };
