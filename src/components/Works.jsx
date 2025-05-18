@@ -22,17 +22,18 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="w-full xs:w-[320px] sm:w-[360px]">
       <Tilt
         options={{
-          max: 45,
+          max: 25,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-4 sm:p-5 rounded-2xl w-full min-h-[450px] flex flex-col'
+        className='relative bg-tertiary p-4 sm:p-5 rounded-2xl w-full min-h-[450px] flex flex-col z-[1]'
       >
         <div className='relative w-full h-[200px]'>
           <img
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
+            loading="lazy"
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover gap-2'>
@@ -81,7 +82,7 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
+    <div className="relative z-0 bg-primary">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
@@ -101,7 +102,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
