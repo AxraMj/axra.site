@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-I'm a freelance web developer passionate about building fast, modern, and responsive websites. I specialize in turning ideas into clean, functional digital experiences using HTML, CSS, JavaScript, and React.
+I'm a web developer passionate about building fast, modern, and responsive websites. I specialize in turning ideas into clean, functional digital experiences using HTML, CSS, JavaScript, and React.
 
 I help small businesses, startups, and solo entrepreneurs create beautiful websites that not only look great but also perform well across all devices.      </motion.p>
 

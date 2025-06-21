@@ -178,28 +178,28 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Local Bakery Website",
-      description:
-        "A modern, responsive website built for a fictional local bakery to showcase its products, services, and customer love. This project was designed to reflect the warm, welcoming nature of a family-owned bakery while offering a clean and functional user experience across devices.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "framer-motion",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: bakeryWebsite,
-      source_code_link: "https://github.com/AxraMj/Local-Bakery-Website.git",
-      demo_link: "https://local-bakery-website.vercel.app/"
-    },
+    // {
+    //   name: "Local Bakery Website",
+    //   description:
+    //     "A modern, responsive website built for a fictional local bakery to showcase its products, services, and customer love. This project was designed to reflect the warm, welcoming nature of a family-owned bakery while offering a clean and functional user experience across devices.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "framer-motion",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: bakeryWebsite,
+    //   source_code_link: "https://github.com/AxraMj/Local-Bakery-Website.git",
+    //   demo_link: "https://local-bakery-website.vercel.app/"
+    // },
     {
       name: "3D IPhone Website",
       description:
