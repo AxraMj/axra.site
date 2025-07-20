@@ -353,7 +353,7 @@ export const hackathons = [
         name: "Google Maps API",
       },
     ],
-    image: "/src/assets/travo.png",
+    image: travo,
     github_link:
       "https://github.com/AxraMj/TRAVEL-AND-EXPLORATION-MOBILE-APP.git",
   },
