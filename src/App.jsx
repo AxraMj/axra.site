@@ -25,9 +25,9 @@ function App() {
         <About />
         <Experience />
         <Tech />
+        <Hackathon />
         <FeaturedProjects />
         <Works />
-        <Hackathon />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
