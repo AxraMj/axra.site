@@ -129,20 +129,19 @@ const experiences = [
   {
     title: "Master Of Computer Applications",
     company_name: "MCA",
-    // icon: starbucks,
     iconBg: "#383E56",
     date: "March 2023 - April 2025",
     points: [
       "School Of Technology And Applied Sciences University in Kottayam, Kerala",
+      "CGPA: 8.16/10 (Current)",
     ],
   },
   {
     title: "Bachelor Of Computer Applications",
     company_name: "BCA",
-    // icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2019 - Feb 2022",
-    points: ["SREE SABAREESA College in Punchavayal, Kerala"],
+    points: ["SREE SABAREESA College in Punchavayal, Kerala", "CGPA: 6.66/10"],
   },
 ];
 
