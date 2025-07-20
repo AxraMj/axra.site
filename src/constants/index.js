@@ -130,7 +130,7 @@ const experiences = [
     title: "Master Of Computer Applications",
     company_name: "MCA",
     iconBg: "#383E56",
-    date: "March 2023 - July 2025",
+    date: "Aug 2023 - July 2025",
     points: [
       "School Of Technology And Applied Sciences University in Kottayam, Kerala",
       "CGPA: 8.16/10 (Current)",
