@@ -140,7 +140,7 @@ const experiences = [
     title: "Bachelor Of Computer Applications",
     company_name: "BCA",
     iconBg: "#E6DEDD",
-    date: "Jan 2019 - Feb 2022",
+    date: "June 2019 - May 2022",
     points: ["SREE SABAREESA College in Punchavayal, Kerala", "CGPA: 6.66/10"],
   },
 ];
