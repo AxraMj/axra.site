@@ -21,9 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import expressjs from "./tech/expressjs.png";
-import python from './tech/python.png';
-import Threejs from './tech/Threejs.png'
-import GSAP from './tech/GSAP.svg'
+import python from "./tech/python.png";
+import Threejs from "./tech/Threejs.png";
+import GSAP from "./tech/GSAP.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -33,9 +33,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import Application from "./Application.png";
 import Applewebsite from "./Applewebsite.png";
-import thumnail from "./thumnail.png"
-import MaskedFace from './MaskedFace.png'
-import bakeryWebsite from './work/bakery-website.png'
+import thumnail from "./thumnail.png";
+import MaskedFace from "./MaskedFace.png";
+import bakeryWebsite from "./work/bakery-website.png";
+import colorpal from "./colorpal.png";
+import travo from "./travo.png";
 
 export {
   logo,
@@ -72,5 +74,7 @@ export {
   python,
   Threejs,
   GSAP,
-  bakeryWebsite
+  bakeryWebsite,
+  colorpal,
+  travo,
 };

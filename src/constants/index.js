@@ -28,6 +28,8 @@ import {
   thumnail,
   GSAP,
   bakeryWebsite,
+  travo,
+  colorpal,
 } from "../assets";
 
 export const navLinks = [
@@ -326,7 +328,7 @@ export const hackathons = [
         name: "Adobe Express SDK",
       },
     ],
-    image: "/src/assets/colorpal.png",
+    image: colorpal,
     github_link: "https://github.com/AxraMj/colorpal.git",
   },
   {
