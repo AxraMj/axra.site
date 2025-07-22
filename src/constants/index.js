@@ -242,7 +242,7 @@ const projects = [
     image: "/Travo Thumnail.png",
     source_code_link:
       "https://github.com/AxraMj/TRAVEL-AND-EXPLORATION-MOBILE-APP.git",
-    demo_link: "https://travo-app.vercel.app",
+    demo_link: "",
   },
   {
     name: "OTT Application",
@@ -264,7 +264,7 @@ const projects = [
     ],
     image: Application,
     source_code_link: "https://github.com/AxraMj/my-app.git",
-    demo_link: "https://ott-app-demo.vercel.app",
+    demo_link: "",
   },
   {
     name: "OTT Streaming Plaform",
@@ -286,7 +286,7 @@ const projects = [
     ],
     image: thumnail,
     source_code_link: "https://github.com/AxraMj/my-project.git",
-    demo_link: "https://ott-streaming.vercel.app",
+    demo_link: "https://my-project-dusky-ten.vercel.app/",
   },
   {
     name: "Mask face Detection System",
@@ -308,7 +308,7 @@ const projects = [
     ],
     image: MaskedFace,
     source_code_link: "https://github.com/AxraMj/Machine-Learning-Projects.git",
-    demo_link: "https://mask-detection-demo.vercel.app",
+    demo_link: "",
   },
 ];
 
